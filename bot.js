@@ -40,3 +40,32 @@ function ranDom (arr) {
   var index = Math.floor(Math.random() * arr.length);
   return arr[index];
 }
+
+var retweet = function() {
+  var params = {
+    q: '#nodejs, #Nodejs',
+    result_type: 'recent',
+    lang: 'en'
+  }
+  Twitter.get('search/tweets', params, function(err, data) {
+    // if no errs
+    if (!err) {
+      var retweetId = data.statuses[0].id_str;
+      // tell twitter to retweet that ishhh
+      Twitter.post('statuses/retweet/:id', {
+        id: retweetId
+      }, function(err, response) {
+        if (response) {
+          console.log('retweeted!!!');
+        }
+        // err booo!
+        if (err) {
+          console.log('something bad happened... dupes?')
+        }
+      });
+    }
+    else {
+      console.log('error while searching...');
+    }
+  })
+}
