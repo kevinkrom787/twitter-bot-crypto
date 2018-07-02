@@ -69,3 +69,6 @@ var retweet = function() {
     }
   })
 }
+
+retweet();
+setInterval(retweet, 9000000)
