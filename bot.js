@@ -43,7 +43,7 @@ function ranDom (arr) {
 
 var retweet = function() {
   var params = {
-    q: '#seahawks, #Seahawks',
+    q: '#SaaS, #sales',
     result_type: 'recent',
     lang: 'en'
   }
