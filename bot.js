@@ -6,7 +6,7 @@ var Twitter = new twit(config)
 
 var favoriteTweet = function() {
   var params = {
-    q: '#seahawks',
+    q: '#truly',
     result_type: 'recent',
     lang: 'en'
   }
