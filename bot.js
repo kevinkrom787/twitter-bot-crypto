@@ -75,7 +75,7 @@ var retweet = function() {
 var searchTweet = () => {
 
   var params = {
-    q: 'MondayMotivation',
+    q: '#HurricaneChris  ',
     count: 10,
     result_type: 'recent',
     lang: 'en'
