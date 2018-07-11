@@ -75,8 +75,8 @@ var retweet = function() {
 var searchTweet = () => {
 
   var params = {
-    q: '#HurricaneChris  ',
-    count: 10,
+    q: '#hyphy  ',
+    count: 1,
     result_type: 'recent',
     lang: 'en'
   }
