@@ -6,7 +6,7 @@ var Twitter = new twit(config)
 
 var favoriteTweet = function() {
   var params = {
-    q: '#SaaS',
+    q: '#TubetoWorkDay!',
     result_type: 'recent',
     lang: 'en'
   }
@@ -75,7 +75,7 @@ var retweet = function() {
 var searchTweet = () => {
 
   var params = {
-    q: '#Rockies  ',
+    q: '#TubetoWorkDay  ',
     count: 1,
     result_type: 'recent',
     lang: 'en'
