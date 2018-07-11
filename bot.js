@@ -75,7 +75,7 @@ var retweet = function() {
 var searchTweet = () => {
 
   var params = {
-    q: '#hyphy  ',
+    q: '#Rockies  ',
     count: 1,
     result_type: 'recent',
     lang: 'en'
