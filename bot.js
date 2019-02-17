@@ -6,7 +6,8 @@ var Twitter = new twit(config)
 
 var favoriteTweet = function() {
   var params = {
-    q: '#TubetoWorkDay!',
+    q: '#seahawks ',
+    count: 10,
     result_type: 'recent',
     lang: 'en'
   }
@@ -75,8 +76,8 @@ var retweet = function() {
 var searchTweet = () => {
 
   var params = {
-    q: '#TubetoWorkDay  ',
-    count: 1,
+    q: '#seahawks ',
+    count: 10,
     result_type: 'recent',
     lang: 'en'
   }
