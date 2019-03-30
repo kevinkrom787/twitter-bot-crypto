@@ -6,8 +6,8 @@ var Twitter = new twit(config)
 
 var favoriteTweet = function() {
   var params = {
-    q: ' DevOps ',
-    count: 10,
+    q: ' #DevOps ',
+    count: 1,
     result_type: 'recent',
     lang: 'en'
   }
