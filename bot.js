@@ -6,7 +6,7 @@ var Twitter = new twit(config)
 
 var favoriteTweet = function() {
   var params = {
-    q: 'seattle mariners ',
+    q: ' DevOps ',
     count: 10,
     result_type: 'recent',
     lang: 'en'
@@ -44,7 +44,7 @@ function ranDom (arr) {
 
 var retweet = function() {
   var params = {
-    q: '#mariners',
+    q: 'Software development',
     result_type: 'recent',
     lang: 'en'
   }
@@ -70,6 +70,7 @@ var retweet = function() {
     }
   })
 }
+retweet()
 
 // retweet();
 // setInterval(retweet, 9000000);
