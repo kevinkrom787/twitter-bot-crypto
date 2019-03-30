@@ -6,7 +6,7 @@ var Twitter = new twit(config)
 
 var favoriteTweet = function() {
   var params = {
-    q: '#seahawks ',
+    q: 'seattle mariners ',
     count: 10,
     result_type: 'recent',
     lang: 'en'
@@ -44,7 +44,7 @@ function ranDom (arr) {
 
 var retweet = function() {
   var params = {
-    q: '#SaaS, #sales',
+    q: '#mariners',
     result_type: 'recent',
     lang: 'en'
   }
@@ -76,7 +76,7 @@ var retweet = function() {
 var searchTweet = () => {
 
   var params = {
-    q: '#seahawks ',
+    q: '@circleci ',
     count: 10,
     result_type: 'recent',
     lang: 'en'
